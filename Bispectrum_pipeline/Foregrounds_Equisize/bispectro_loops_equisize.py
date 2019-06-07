@@ -1,8 +1,8 @@
 # encoding: utf-8
 
 ##############################################################################
-## Algorithm for Bispectrum Calculation      (equisize Triangule)        #####
-##                                                                       #####
+## Algorithm for Bispectrum Calculation      (equisize Triangule)       #####
+##                                                                      #####
 ## Bucher et al  -->  https://arxiv.org/pdf/1509.08107.pdf
 ## Authors: Karin Fornazier, Filipe Abdalla, Jordany Vieira 
 ## Email: karin.fornazier@gmail.com
