@@ -14,14 +14,14 @@ def maskdir(name="BINGO_MASK"):
         os.mkdir(path_maskdir)
     else: pass
 
-NPIXa  = fits.getdata("foreground_cube__bispectrumforegrounds_bingo_mask.fits")
+NPIXa  = fits.getdata("foreground_cube_standard128.fits")
 NPIX = hp.get_map_size(NPIXa[1])
 NSIDE = hp.npix2nside(NPIX)
-#NSIDE      = 1024
+NSIDE      = 128
 theta_mask = False
 phi_mask   = True
-phi_min    = -52.5
-phi_max    = -11.5
+phi_min    = -22.5
+phi_max    = -7.5
 theta_min  = 0
 theta_max  = 0 
 
